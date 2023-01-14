@@ -11,7 +11,7 @@
         "isGameWindowForeground":true,
         "inVehicleAsPassenger":true
         },
-    "Debug":false
+    "Debug":true
     },
 "Ping":"Pong"
 }
