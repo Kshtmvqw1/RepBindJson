@@ -1,0 +1,193 @@
+{
+"Global":{
+    "NaujausiaVersija":"0.237",
+    "StableVersija":"4.0.3",
+    "BetaVersija":"0.237",
+    "DownloadUrl":{
+        "Stable":"",
+        "Beta":""
+        },
+    "Beta":true
+    },
+"DarboTr":{
+    "Darbine1":{
+        "Pavadinimas":"News Van",
+        "VehID":582,
+        "Delay":15000
+        },
+    "Darbine2":{
+        "Pavadinimas":"Mesa",
+        "VehID":500,
+        "Delay":20000
+        },
+    "Darbine3":{
+        "Pavadinimas":"News Chopper",
+        "VehID":488,
+        "Delay":17500
+        },
+    "Darbine4":{
+        "Pavadinimas":"BF Injection",
+        "VehID":424,
+        "Delay":17500
+        }
+    },
+"Strukturos":
+"Namams:
+[V_P] Perka [Namą/Butą/Sklypą][Miestas][Vieta][Vidus][Spinta][Būtina][Papildoma][Kaina]
+[V_P] Parduoda [Namą/Butą/Sklypą][Galioja][Miestas][Vieta][Vidus][Spinta][Papildoma][Kaina/Pasiūlyta]
+
+Transportui:
+[V_P] Perka [Mašiną/Motociklą/Laivą/Dviratį][Rida][Bagažinė][Būtina][Papildoma][Kaina]
+[V_P] Parduoda [Mašiną/Motociklą/Laivą/Dviratį][Rida][Bagažinė][Papildoma][Kaina]
+
+Transporto numeriams:
+[V_P] Parduoda [Numerius][Pavadinimas][Papildoma][Kaina/Pasiūlyta]
+[V_P] Perka [Numerius][Būtina][Papildoma][Kaina]
+
+Paslaugos:
+[V_P] Kelia [Rida][Papildoma][Kaina]
+[V_P] Ieško [Ridos kelėjo][Mašina][Būtina][Papildoma][Kaina]
+[V_P] Parduoda [Maistą][Vieta][Papildoma]
+[V_P] Stato [Namus/Sklypus/Loftus][Papildoma][Kaina]
+[V_P] Ieško [Statybininko][Būtina][Papildoma][Kaina]
+[V_P] Tarpininkauja [Pratarpinta][Papildoma][Kaina]
+[V_P] Ieško [Tarpininko][Būtina][Papildoma][Kaina]
+[V_P] Parduoda [Būsto raktą][Maph][Papildoma][Kaina]
+[V_P] Perka [Būsto raktą][Miestas][Vidus][Būtina][Papildoma][Kaina]
+[V_P] Nuomuoja [Mašiną][Papildoma][Kaina]
+[V_P] Ieško [Mašinos nuomuoti][Mašina][Būtina][Kaina]
+[V_P] Vežioja [Žmones][Mašina][Papildoma][Kaina]
+[V_P] Ieško [Vežiotojo][Būtina][Kaina]
+[Reklama] Tarnyba darbuojasi! - /kviesti Tarnyba [vieta]
+
+Smulkusis turtas:
+[V_P] Perka [Garaža][Galioja][Miestas][Vieta][Spinta][Papildoma][Kaina]
+[V_P] Parduoda [Garaža][Galioja][Miestas][Vieta][Spinta][Papildoma][Kaina]
+[V_P] Perka [Verslą][Papildoma][Kaina]
+[V_P] Parduoda [Verslą][Kaina/Pasiūlyta]
+[V_P] Perka [Daikta(-us)][Kaina]
+[V_P] Parduoda [Daikta(-us)][Kaina]
+[V_P] Perka [Kanapių sėklas][Būtina][Kaina]
+[V_P] Parduoda [Kanapių sėklas][Papildoma][Kaina]
+
+Azartines pramogos:
+[V_P] Žaidžia [Žvejybą][Papildoma][Statymas]
+[V_P] Žaidžia [Žaidimą][Papildoma][Statymas]
+[V_P] Žaidžia [Monetą][Papildoma][Statymas]
+[V_P] Žaidžia [Biliardą][Vieta][Statymas]
+[V_P] Žaidžia [Kartingais(-us)][Statymas]
+[V_P] Žaidžia [Tankų kovas][Statymas]",
+"AP":
+"Astralinis Pasaulis-Demonams, neši duoklę?
+Gauni bomba, mirštant diodai sprogsta, vergas amžiams.
+Tu avis tarp Vilkų. 
+Žinai istorijos pabaigą? 
+Ką tu išvis darai? 
+Vaizduotėje trugdo, kuria netikrus sapnus, mintis, jausmus. 
+Dink iš ten, greičiau! 
+Yra technika Pasigyditi bet kokią ligą. 
+Geri darbai, turėdamas moterį, svajones, muzika, juoka, adrenalina. 
+Mylėk visus darbus, visada būk laimingas. 
+Turi jausti, fantazuoti, kad tu Bosas daužaisi su Dievais. 
+Prisimink nostalgija. 
+Didelė energijos dozė, kai aina šiurpūliukai, reiškiasi gydaisi, sportuok ir joga daryk. 
+Prarandi energija-vaistai, skiepai-velnių nuodai. 
+Įkritai į duobę, mastyk kaip išlysti. 
+Stresuoji, bijai ar valgai nuo 5 iki 5 ryto. 
+Jie atema Endofinus oksatacinus be jų žmonės miršta. 
+Išsirėk, padainuok, žaidimą pažaisk-sukauptas pyktis iššaukia piktybinius auglius. 
+Naudojiantis elektronika, žiūrint į tv, siurbia energija. 
+Metalo detektoriai bomba kūnui. 
+Perki gyvūlinius produktus užsakai mirtį, gyvulio ir žmogaus mirtis lygi.
+Reinkarnacija-blogas būsi čia nebegimsi, vietoj taves gyvens ir kaifuos.
+Užsimerkęs gali judinti žmogeliuką, jo nematai jie tave valdo.
+Netiki?
+2savaites ant dietos be gyvūlinių produktų išsiaiškinsi teiginių tiesą sapnuose.
+Nepatikrinęs nesužinosi.
+Save laikai mylinčiu tėvu?
+Ar vaikai žino?
+Gerbi kitus tėvus?
+Kaip gyvūnai, Tėvuk?
+Tu šviesa-jie tamsa, ko tu nesupranti?
+Iš krano vanduo užnuodytas.
+Skleisk šitą žinią, nuo Kūrėjo gausi dovanų.",
+"AutoSkalbenke":{
+    "Title":"AutoSkalbenės info | by [@Spiff~]",
+    "WindowSize":{
+        "X":380,
+        "Y":160},
+    "Text":
+"Dirbant su [News Van], automatiškai skalbs kas 15sec.
+Dirbant su [News Maverick ; BFI], automatiškai skalbs kas 17,5sec.
+Dirbant su [Mesa], automatiškai skalbs kas 20sec.
+
+Būtina sėdėti už vairo!
+Sėdint G skelbimai nebus skelbiami
+Būnant ESC/nuleidus žaidimą, skelbimai nebus skelbiami.
+Išmetus AFK, nustos skelbti skelbimus."},
+"AutoInsertion":{
+    "Title":"Automatinio skelbimo įdėjimo info | by [@Spiff~]",
+    "WindowSize":{
+        "X":380,
+        "Y":170},
+    "Text":
+"Automagiškai pasiima skelbimą ir įsideda į reporterių skalbenkę.
+Reguoja į komandas, jų nespėjus nusiūsti serveriui
+
+Žaidime parašius:
+/x [1-10] [kiekis] [skelbimas] << įdeda skelbimą į pasirinktą slotą
+/x x [kiekis] [skelbimas] << įdeda skelbimą į laisvą slotą
+xx [kiekis] [skelbimas] << įdeda skelbimą į laisvą slotą
+
+Jeigu nėra laisvų slotų, apie tai praneš."},
+"SSK_Tarifai":{
+    "Title":"SiulytiSK kainyno info | by [@Spiff~]",
+    "WindowSize":{
+        "X":470,
+        "Y":325},
+    "Text":
+"Pilnos galimos kainų komandos:
+
+/ssk [nick] [skelbimu kiekis] [Paprastas] - Paprastom kainom
+/ssk [nick] [skelbimu kiekis] [Paslaugos] - Paslaugų kainom
+/ssk [nick] [skelbimu kiekis] [Nalogas] - Nalogo kainom
+/ssk [nick] [skelbimu kiekis] [NalogasPaslaugos] - Paslauginių Nalogų kainom
+/ssk [nick] [skelbimu kiekis] [Naujokas] - Naujoko kainom
+
+
+Taippat, yra ir komandų trumpiniai:
+
+/ssk [nick] [skelbimu kiekis] [ ] - Paprastom kainom
+/ssk [nick] [skelbimu kiekis] [Pas] - Paslaugų kainom
+/ssk [nick] [skelbimu kiekis] [Nal] - Nalogo kainom
+/ssk [nick] [skelbimu kiekis] [NP] - Paslauginių Nalogų kainom
+/ssk [nick] [skelbimu kiekis] [New] - Naujoko kainom
+
+
+Vietoj žaidėjo nick, galima rašyti ID
+Vieneto kainą pakeis į pilą kainą (Forumulė: [Skelbimų kiekis] * [Vieneto kaina])"},
+"SSK":{
+    "Title":"Skelbimų pardavimo info | by [@Spiff~]",
+    "WindowSize":{
+        "X":350,
+        "Y":280},
+    "Text":
+"Siūlant pirkti skelbimus, vietoj pilnos kainos, rašyti vieneto.
+Reguoja į komandas, ją nespėjus nusiūsti serveriui
+
+Žaidime parašius vieną iš šių komandų:
+/ssk [nick] [skelbimu kiekis] [vieneto kaina]
+Vieneto kainą pakeičia į galutinę.
+
+Pvz:
+Jūs parašte komandą:
+/ssk sliuuzas 200 5000
+
+Serveris gauna komandą jog rašėte:
+/siulytisk sliuuzas 200 1000000
+
+
+Veikia siūlant ir su \"k\" (1k = 1000).
+Vietoj nicko, galima rašyt ir žaidėjo id."},
+"Ping":"Pong"
+}
