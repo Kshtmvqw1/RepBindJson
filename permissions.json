@@ -1,11 +1,11 @@
 {
 "Electro_Gold":{
     "Premium":{
-        "SkalbenkePed":"2222-01-01",
-        "SkalbenkeVeh":"2222-01-01",
+        "SkalbenkePed":"2269-01-01",
+        "SkalbenkeVeh":"2269-01-01",
         "Delay":10500,
-        "Keybind":"2222-01-01",
-        "SSK":"2222-01-01"
+        "Keybind":"2269-01-01",
+        "SSK":"2269-01-01"
         },
     "Flags":{
         "isGameWindowForeground":true,
@@ -13,13 +13,13 @@
         },
     "Debug":false
     },
-    "Audi_Mister":{
+"Electro_Gold":{
     "Premium":{
-        "SkalbenkePed":"2222-01-01",
-        "SkalbenkeVeh":"2222-01-01",
+        "SkalbenkePed":"2269-01-01",
+        "SkalbenkeVeh":"2269-01-01",
         "Delay":10500,
-        "Keybind":"2222-01-01",
-        "SSK":"2222-01-01"
+        "Keybind":"2269-01-01",
+        "SSK":"2269-01-01"
         },
     "Flags":{
         "isGameWindowForeground":true,
